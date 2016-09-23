@@ -19,6 +19,7 @@ module CharacterStringTest =
   let cs1ms = new MemoryStream(!!cs1xs)
   let cs1'  = character_string.unpickle cs1ms
 
+// add a comment
 module DomainNameTest =
   let dn1   = { name = "nfin.ch" }
   let dn1xs = dn1.pickle
